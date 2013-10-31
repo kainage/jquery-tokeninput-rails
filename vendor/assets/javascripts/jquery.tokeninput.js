@@ -19,6 +19,7 @@ var DEFAULT_SETTINGS = {
     noResultsText: "No results",
     searchingText: "Searching...",
     deleteText: "&times;",
+    placeholderText: 'Search'
     
     // Field exibition and behavior
     
@@ -192,7 +193,7 @@ $.TokenList = function (input, url_or_data_or_function, settings) {
     var input_val;
 
     // Create a new text input an attach keyup events
-    var input_box = $("<input type=\"text\"  autocomplete=\"off\">")
+    var input_box = $("<input type=\"text\"  placeholder=\"" + settings.placeholderText + "\" autocomplete=\"off\">")
         .css({
             outline: "none"
         })
