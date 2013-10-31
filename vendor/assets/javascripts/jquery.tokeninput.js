@@ -19,7 +19,7 @@ var DEFAULT_SETTINGS = {
     noResultsText: "No results",
     searchingText: "Searching...",
     deleteText: "&times;",
-    placeholderText: 'Search'
+    placeholderText: "Search",
     
     // Field exibition and behavior
     
